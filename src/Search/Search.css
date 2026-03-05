@@ -1,0 +1,48 @@
+/* 8% */
+.searchBox{
+    background-color: white;
+    width: 89.32vw;
+    height: 44px;
+    border-radius: 20px;
+    top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.BoxBox{
+    width: 81vw;
+    display: flex;
+    height: 44px;
+    align-items: center;
+}
+.searchIcon{
+    height: 40px;
+    width: 40px;
+}
+.searchInputBox{
+    width: 320px;
+    height: 40px;
+    align-items: center;
+    display: flex;
+}
+.searchInput{
+    width: 59vw;
+    height: 30px;
+    border: 0;
+    position: absolute;
+}
+.voiceIconBox{
+    width: 40px;
+    height: 40px;
+}
+.voiceButton{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    padding: 0;
+}
+.voiceIcon{
+    width: 40px;
+    height: 40px;
+}
