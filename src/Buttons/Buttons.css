@@ -1,0 +1,30 @@
+.buttonBox{
+    background-color: aliceblue;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 89%;
+}
+.BoxButton{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    gap: 40px;
+    display: flex;
+}
+.knopke{
+    width: 70px;
+    height: 61px;
+    justify-content: center;
+    border: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.knopkesImg{
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+.knopkesText{
+    margin: 0;
+}
