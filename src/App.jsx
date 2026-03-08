@@ -1,15 +1,22 @@
 import { useState } from 'react'
+import { BrowserRouter, Route, Routes, Link } from 'react-router-dom'
 import './App.css'
-import Search from './Search/Search';
-import Buttons from './Buttons/Buttons';
+import Maps from './Pages/Maps.jsx';
+import Profile from './Pages/Profile.jsx'
+import Chats from './Pages/Chat.jsx'
+import Settings from './Pages/Settings.jsx';
 function App() {
 
   return (
     <>
-      <main>
-        <Search></Search>
-        <Buttons></Buttons>
-      </main>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Maps/>}/>
+          <Route path='/profile' element={<Profile />}/>
+          <Route path='/chats' element={<Chats/>}/>
+          <Route path='/settings' element={<Settings/>}/>
+        </Routes>
+      </BrowserRouter>
       
     </>
   )
