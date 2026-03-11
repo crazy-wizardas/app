@@ -19,6 +19,7 @@
     border: 0;
     display: flex;
     flex-wrap: wrap;
+    border-radius: 10px;
 }
 .knopkesImg{
     width: 30px;

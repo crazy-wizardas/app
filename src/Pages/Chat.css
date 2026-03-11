@@ -1,0 +1,48 @@
+main{
+    background-color: #EAEFEF;
+}
+.ChatTop{
+    background-color: #BFC9D1;
+    width: 100%;
+    height: 76px;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.055);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.ChatName{
+    color: #25343F;
+    font-size: 30px;
+}
+.ChatBottom{
+    width: 100%;
+    position: absolute;
+    top: 82%;
+    display: flex;
+    gap: 4%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.ChatText{
+    background-color: #BFC9D1;
+    height: 35px;
+    width: 70%;
+    border-radius: 20px;
+}
+.ChatInput{
+    background-color: #BFC9D1;
+    border: 0;
+    color: #151e24;
+    font-size: 15px;
+    padding-left: 4%;
+    height: 35px;
+    width: 70%;
+    border-radius: 20px;
+}
+.ChatSend{
+    background-color: #BFC9D1;
+    border: 0;
+    width: 9%;
+    border-radius: 20px;
+}
