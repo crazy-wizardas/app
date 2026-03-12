@@ -13,6 +13,7 @@ main{
 .ChatName{
     color: #25343F;
     font-size: 30px;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 .ChatBottom{
     width: 100%;

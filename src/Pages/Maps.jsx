@@ -1,7 +1,6 @@
 import './Search.css';
 import searchGlass from '../IMG/magnifying-glass-solid-full.svg';
 import mic from '../IMG/microphone-solid-full.svg'
-import { useState } from "react";
 import Buttons from './Components/Buttons.jsx';
 function Maps() {
     return (

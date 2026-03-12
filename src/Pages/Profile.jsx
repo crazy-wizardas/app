@@ -5,6 +5,7 @@ function Profile() {
     return (
         <>
             <main>
+                
                 <Buttons/>
             </main>
         </>
